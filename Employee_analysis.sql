@@ -118,7 +118,7 @@ select EmpName from Employee2 where Experience>5 and Salary>50000;
 select PerformanceRating,avg(Salary) as AvgSal from Employee2 group by PerformanceRating order by PerformanceRating;
 
 --Q6. Find the average salary based on designation
-select avg(Salary) as AvgSal from Employee2 group by Designation 
+select avg(Salary) as AvgSal from Employee2 group by Designation;
 
 --Q7. Find the average salary of employees with more than 5 years of experience
 select avg(Salary) as AvgSal from Employee2 where Experience>5;
